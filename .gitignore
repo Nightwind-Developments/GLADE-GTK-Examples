@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+GladeProgramP1/.idea/serialmonitor_settings.xml
+
+GladeProgramP1/GladeProgramP1

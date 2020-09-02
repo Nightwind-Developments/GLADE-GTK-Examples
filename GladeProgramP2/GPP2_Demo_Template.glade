@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.2 -->
+<!-- Generated with glade 3.36.0 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <object class="GtkWindow">
+  <object class="GtkWindow" id="MainWindow">
     <property name="name">StartScreen</property>
     <property name="can_focus">False</property>
     <property name="window_position">center-on-parent</property>
-    <property name="type_hint">desktop</property>
+    <property name="type_hint">splashscreen</property>
     <property name="gravity">center</property>
-    <child type="titlebar">
-      <placeholder/>
-    </child>
     <child>
       <object class="GtkGrid" id="StartScreenGrid">
         <property name="visible">True</property>
@@ -28,6 +25,21 @@
           <packing>
             <property name="left_attach">1</property>
             <property name="top_attach">1</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="Status_Label">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Avenir weight=530 22"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">2</property>
             <property name="width">2</property>
           </packing>
         </child>
@@ -67,13 +79,10 @@
         <child>
           <placeholder/>
         </child>
-        <child>
-          <placeholder/>
-        </child>
-        <child>
-          <placeholder/>
-        </child>
       </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
     </child>
   </object>
 </interface>

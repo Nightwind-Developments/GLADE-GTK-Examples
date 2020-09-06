@@ -1,0 +1,6 @@
+/opt/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/rhys/Development/GLADE & GTK Examples/GladeProgramP2"
+-- Checking for module 'gtkmm-3.0'
+--   Found gtkmm-3.0, version 3.24.2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rhys/Development/GLADE & GTK Examples/GladeProgramP2/cmake-build-debug

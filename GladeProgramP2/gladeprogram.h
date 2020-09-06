@@ -5,12 +5,10 @@
 #ifndef GLADEPROGRAMP2_GLADEPROGRAM_H
 #define GLADEPROGRAMP2_GLADEPROGRAM_H
 
-#include <stdlib.h>
-#include <cstdlib>
-#include <cstring>
-#include <gtk/gtk.h>
-#include <gtk/gtkx.h>
+#include <string>
+#include <iostream>
+#include <gtkmm.h>
 
-gchar graphics_file_loc = "GPP2_Demo_Template.glade";
+std::string gladeFilePath = "GPP2_Demo_Template.glade";
 
 #endif //GLADEPROGRAMP2_GLADEPROGRAM_H
